@@ -75,31 +75,33 @@
   flex-direction: column;
   align-items: center;
   padding: 50px 0;
-  color: black;
-  background-color: lightgray;
-  border: 3px solid darkviolet;
-  border-radius: 64px;
+  color: lime;
+  background-color: black;
+  border: 3px solid lime;
+  border-radius: 32px;
 }
 .friend-input input {
   margin-bottom: 10px;
-  border-color: violet;
-  border-radius: 16px;
+  border-color: lime;
+  border-radius: 8px;
   padding-left: 5px;
 }
 .friend-input button {
   color: black;
-  background-color: gray;
-  border: 1px solid black;
-  border-radius: 16px;
+  background-color: lime;
+  border: 2px solid white;
+  font-weight: 600;
+  border-radius: 4px;
   padding: 2.5px 10px;
   margin-top: 5px;
 }
 
 .return-home {
   cursor: pointer;
-  background-color: gray;
-  border: 1px solid black;
-  border-radius: 16px;
+  background-color: lime;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-weight: 600;
   padding: 2.5px;
   text-decoration: none;
   color: black;
