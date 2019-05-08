@@ -1,35 +1,143 @@
 .App {
   text-align: center;
+  background: grey;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+
+.list {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list div {
+  position: relative;
+  width: 40%;
+  text-align: center;
+  border: 4px solid lime;
+  background: black;
+
+  color: rgb(255, 242, 242) ;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.list div span, .list form span {
+  font-weight: bold;
+}
+.list form input {
+  margin-left: 5px;
+}
+.list .icons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  width: auto;
+}
+.list .icons span {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list .icons .edit {
+  margin-right: 10px;
+}
+.list-container {
+  margin-top: 20px;
+}
+.add-button {
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 4px solid black;
+  border-radius: 4px;
+  color: white ;
+  font-weight: 700;
+  background: forestgreen;
+  cursor: pointer;
+}
+.add-button:active {
+  background: black;
+  color: lightgray;
+}
+.input-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friend-input {
+  position: relative;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 50px 0;
+  color: black;
+  background-color: lightgray;
+  border: 3px solid darkviolet;
+  border-radius: 64px;
+}
+.friend-input input {
+  margin-bottom: 10px;
+  border-color: violet;
+  border-radius: 16px;
+  padding-left: 5px;
+}
+.friend-input button {
+  color: black;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 2.5px 10px;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.return-home {
+  cursor: pointer;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 2.5px;
+  text-decoration: none;
+  color: black;
+}
+.return-home:active {
+  transform: translateY(1px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit {
+  margin-right: 100px;
+  border: 2px solid lime;
+  height: 100px;
+  color: black;
+  width: 50%;
+  background: palegreen;
+  border-radius: 96px;
+  height: 25px;
+  padding: 5px;
 }
 
+.modify {
+  color: red;
+  background-color: gray;
+  border-radius: 96px;
+  width: 50px;
+  border: red;
+  width: 100%;
+}
 
+.icons {
+  margin-top: 50px;
+
+}
+
+.delete {
+  color: black;
+  background: palegreen;
+  padding: 5px;
+  border: 2px solid lime;
+  border-radius: 96px;
+}
